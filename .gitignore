@@ -1,0 +1,9 @@
+*.pyc
+.idea
+data/*
+artifacts/*
+artifacts_stages/*
+.vscode/
+.ipynb_checkpoints/
+logs/*
+!.keep
