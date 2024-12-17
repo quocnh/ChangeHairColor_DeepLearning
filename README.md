@@ -8,7 +8,6 @@ The architecture is inspired by [MobileNets](https://arxiv.org/abs/1704.04861) a
 
 The goal of this project is to detect hair segments with reasonable **accuracy and speed in mobile device**. Currently, it achieves 0.89 IoU.
 
-About speed vs accuracy, more details are available at [my post](https://medium.com/vitalify-asia/real-time-deep-learning-in-mobile-application-25cf601a8976).
 
 ![Example of predicted image.](assets/prediction.png)
 
