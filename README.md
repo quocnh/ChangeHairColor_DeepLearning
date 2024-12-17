@@ -9,7 +9,7 @@ The architecture is inspired by [MobileNets](https://arxiv.org/abs/1704.04861) a
 The goal of this project is to detect hair segments with reasonable **accuracy and speed in mobile device**. Currently, it achieves 0.89 IoU.
 
 
-![Example of predicted image.](assets/prediction.png)
+![Example of predicted image.](img/project3.png)
 
 ## Example application
 
