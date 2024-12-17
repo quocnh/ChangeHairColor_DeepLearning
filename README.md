@@ -13,7 +13,7 @@ The goal of this project is to detect hair segments with reasonable **accuracy a
 
 ## Example application
 
-
+[![Watch the video](https://github.com/quocnh/ChangeHairColor_DeepLearning/blob/b310281d182fc48d1afa424a0b3fac5c3cd75595/img/project3_homet.png)](https://drive.google.com/file/d/1zEbqnFHdOjx2dYE179wf6JrF0cGRimcy/view?usp=sharing)
 
 ## Requirements
 
