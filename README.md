@@ -83,11 +83,7 @@ As the purpose of this project is to make model run in mobile device, this repos
   * It converts trained hdf5 model to protocol buffer format for TensorFlow which is used in Android app.
 
 
-## TBD
-
-- [x] Report speed vs accuracy in mobile device.
-- [ ] Example app for Android
-- [ ] Aux loss
-- [ ] Some more optimizations??
+## Output 
+MobileNets has a parameter, called alpha, to control the trade-off between speed and accuracy. It can be easily applied to MobileUNet, so that MobileUNet has also same parameter. I picked up 4 kinds of alpha (1, 0.75, 0.5 and 0.25) and 4 kinds of image size (224, 192, 160, 128).
 
 
