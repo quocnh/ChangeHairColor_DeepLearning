@@ -13,8 +13,7 @@ The goal of this project is to detect hair segments with reasonable **accuracy a
 
 ## Example application
 
-* [iOS](https://github.com/vfa-tranhv/MobileAILab-HairColor-iOS)
-* Android (TODO)
+
 
 ## Requirements
 
@@ -84,5 +83,6 @@ As the purpose of this project is to make model run in mobile device, this repos
 
 ## Output 
 MobileNets has a parameter, called alpha, to control the trade-off between speed and accuracy. It can be easily applied to MobileUNet, so that MobileUNet has also same parameter. I picked up 4 kinds of alpha (1, 0.75, 0.5 and 0.25) and 4 kinds of image size (224, 192, 160, 128).
+![Fig. MobileUNet benchmark result](img/project3_output.png)
 
-
+Surprisingly, iPhone 7 plus is the winner, not iPhone 8 plus. I will take a look into it more later. iPhone 7 plus is really fast. It has no problem for real time application in any conditions. While iPhone 6 plus and Snapdragon 820 are not so fast, especially with large alpha. So, we have to choose the best condition carefully with the consideration of accuracy.
